@@ -8,7 +8,7 @@ def diagnosticar(sintomas):
         frozenset(["fiebre", "tos", "dificultad para respirar"]): "Posible infección respiratoria grave. Consulte a un médico.",
         frozenset(["fiebre", "dolor de cabeza"]): "Podría ser una gripe o infección viral. Descanse y manténgase hidratado.",
         frozenset(["dolor de garganta", "tos"]): "Posible resfriado común. Tome líquidos y descanse.",
-        frozenset(["dolor abdominal", "náuseas"]): "Podría ser una indigestión o infección estomacal."
+        frozenset(["dolor de estomago", "náuseas"]): "Podría ser una indigestión o infección estomacal."
     }
     
     for claves, diagnostico in reglas.items():
