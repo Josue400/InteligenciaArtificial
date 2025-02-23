@@ -16,11 +16,11 @@ class SemaforoInteligente:
             
             if self.estado == "rojo":
                 print("Semáforo en ROJO. Esperando...")
-                time.sleep(3)  # Espera fija para rojo
+                time.sleep(4)  # Espera fija para rojo
                 self.estado = "verde"
             
             elif self.estado == "verde":
-                duracion_verde = max(3, min(10, vehiculos))  # Ajusta entre 3 y 10 segundos
+                duracion_verde = max(4, min(10, vehiculos))  # Ajusta entre 4 y 10 segundos
                 print(f"Semáforo en VERDE. {vehiculos} vehículos detectados. Duración: {duracion_verde} seg.")
                 time.sleep(duracion_verde)
                 self.estado = "amarillo"
