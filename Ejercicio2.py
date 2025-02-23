@@ -32,7 +32,7 @@ class AgenteBuscador:
             self.mostrar_matriz()
             time.sleep(0.5)
         
-        print("¡Objeto encontrado!")
+        print("¡Objeto encontrado!\:v/")
         
 if __name__ == "__main__":
     agente = AgenteBuscador()
